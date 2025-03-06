@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "esm",
+    "preserveSymlinks": true,
+    "moduleDetection": "legacy",
+    "target": "ESNext",
+    "module": "CommonJS",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "allowJs": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "src/utils/*"
+  ]
+}
